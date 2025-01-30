@@ -1,1 +1,14 @@
-ECHO is on.
+# Ignore Conda environment
+geo-compress-env/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs and cache
+logs/
+*.log
+*.sqlite3
